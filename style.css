@@ -1,0 +1,68 @@
+body {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight : 500;
+    font-style : normal;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(224, 197, 223);
+  }
+  
+  .container {
+    width: 45%;
+    height: 40%;
+    text-align: center;
+    border: 1px solid rgb(54, 40, 39);
+    border-radius: 30px;
+    background-color: #ddcdda;
+  }
+  
+  .input-container {
+    margin-bottom: 20px;
+  }
+  
+  input[type="number"] {
+    width: 150px;
+    padding: 10px;
+    margin-right: 10px;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  select {
+    padding: 10px;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #e34fc5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  button:hover {
+    background-color: #b52a99;
+    box-shadow: 0 2px 5px 0 #7e697b, 0 2px 10px 0;
+  }
+  
+  #result {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+  }
